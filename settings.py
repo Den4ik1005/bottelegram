@@ -1,19 +1,18 @@
 ﻿
 
-bot_token = 'token' # токен бота
-LOGIN_BOT = '@bot' # логин бота
-CHANNEL_ID = 12345689 # id канала куда будет отсылаться информация, ид без -100 в начале (например: 124873248)
+bot_token = 'token'
+LOGIN_BOT = '@bot'
+CHANNEL_ID = 12345689 
 
-admin_id = 477046240 # id админа
+admin_id = 477046240
+LOGIN_ADMIN = '@login' 
 
-LOGIN_ADMIN = '@login' # тг логин спамера, нужен для информации
-
-QIWI_NUMBER = '+999999999'    # номер киви
-QIWI_TOKEN = 'token'            # токен киви
+QIWI_NUMBER = '+999999999'    
+QIWI_TOKEN = 'token'           
 
 
-PERCENT_SPAM = 0.9  # Процент спамеру (0.5 = 50%) #не работает в версии без спамеров
-PERCENT_OWN = 0.1   # Процент вам (0.5 = 50%)
+PERCENT_SPAM = 0.9  
+PERCENT_OWN = 0.1  
 
 main_bd = '/home/TiredCat/Admin bot/main.db'
 
